@@ -1,0 +1,8 @@
+<div class="gallery">
+  <div *ngFor="let proj of projects" class="card">
+    <a [routerLink]="['/projects', proj.slug]">
+      <img [src]="'assets/projects/' + proj.slug + '/' + proj.images[0]" alt="{{proj.title}}">
+      <h3>{{proj.title}}</h3>
+    </a>
+  </div>
+</div>
