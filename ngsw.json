@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1745408316613,
+  "timestamp": 1745410062262,
   "index": "https://adrianmartinbenito.github.io/ladrillo-visto/index.html",
   "assetGroups": [
     {
@@ -13,10 +13,10 @@
       "urls": [
         "https://adrianmartinbenito.github.io/ladrillo-visto/favicon.ico",
         "https://adrianmartinbenito.github.io/ladrillo-visto/index.html",
-        "https://adrianmartinbenito.github.io/ladrillo-visto/main-SKTKNH2N.js",
+        "https://adrianmartinbenito.github.io/ladrillo-visto/main-X3DHH7YO.js",
         "https://adrianmartinbenito.github.io/ladrillo-visto/manifest.webmanifest",
         "https://adrianmartinbenito.github.io/ladrillo-visto/polyfills-FFHMD2TL.js",
-        "https://adrianmartinbenito.github.io/ladrillo-visto/styles-IS3OKZ4A.css"
+        "https://adrianmartinbenito.github.io/ladrillo-visto/styles-5INURTSO.css"
       ],
       "patterns": []
     },
@@ -36,11 +36,10 @@
         "https://adrianmartinbenito.github.io/ladrillo-visto/assets/icons/icon-512x512.png",
         "https://adrianmartinbenito.github.io/ladrillo-visto/assets/icons/icon-72x72.png",
         "https://adrianmartinbenito.github.io/ladrillo-visto/assets/icons/icon-96x96.png",
-        "https://adrianmartinbenito.github.io/ladrillo-visto/assets/logo.svg",
-        "https://adrianmartinbenito.github.io/ladrillo-visto/assets/projects/casa-perez/01.webp",
-        "https://adrianmartinbenito.github.io/ladrillo-visto/assets/projects/casa-perez/02.webp",
-        "https://adrianmartinbenito.github.io/ladrillo-visto/assets/projects/casa-perez/03.webp",
-        "https://adrianmartinbenito.github.io/ladrillo-visto/assets/projects/data.json"
+        "https://adrianmartinbenito.github.io/ladrillo-visto/assets/images/01.webp",
+        "https://adrianmartinbenito.github.io/ladrillo-visto/assets/images/02.webp",
+        "https://adrianmartinbenito.github.io/ladrillo-visto/assets/images/03.webp",
+        "https://adrianmartinbenito.github.io/ladrillo-visto/assets/logo.svg"
       ],
       "patterns": []
     }
@@ -55,17 +54,16 @@
     "https://adrianmartinbenito.github.io/ladrillo-visto/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "https://adrianmartinbenito.github.io/ladrillo-visto/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "https://adrianmartinbenito.github.io/ladrillo-visto/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "https://adrianmartinbenito.github.io/ladrillo-visto/assets/images/01.webp": "7bd5ab427d1fe1951ade595e0f206add2ab1ec81",
+    "https://adrianmartinbenito.github.io/ladrillo-visto/assets/images/02.webp": "4b0a9ee7397bb734a2d9c7baf8946f7809f5ae0f",
+    "https://adrianmartinbenito.github.io/ladrillo-visto/assets/images/03.webp": "b47e2ca4c156c2287ec9cd2b4d56f456df4b4cf3",
     "https://adrianmartinbenito.github.io/ladrillo-visto/assets/logo.svg": "c0cfbb08cf7df552d49b8e36c7a0fdd6dfc348f4",
-    "https://adrianmartinbenito.github.io/ladrillo-visto/assets/projects/casa-perez/01.webp": "7bd5ab427d1fe1951ade595e0f206add2ab1ec81",
-    "https://adrianmartinbenito.github.io/ladrillo-visto/assets/projects/casa-perez/02.webp": "4b0a9ee7397bb734a2d9c7baf8946f7809f5ae0f",
-    "https://adrianmartinbenito.github.io/ladrillo-visto/assets/projects/casa-perez/03.webp": "b47e2ca4c156c2287ec9cd2b4d56f456df4b4cf3",
-    "https://adrianmartinbenito.github.io/ladrillo-visto/assets/projects/data.json": "244f38a7894ab22c6b071c8bda6d132576dd4eb6",
-    "https://adrianmartinbenito.github.io/ladrillo-visto/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "https://adrianmartinbenito.github.io/ladrillo-visto/index.html": "de0f86a13db3fde45dac8debf0a7fff01d9c1d13",
-    "https://adrianmartinbenito.github.io/ladrillo-visto/main-SKTKNH2N.js": "cd58ff2077b45245cc0c7a753ce36ed67769dcac",
+    "https://adrianmartinbenito.github.io/ladrillo-visto/favicon.ico": "074d53f68349c299d5df1b8070e6166d65e5b577",
+    "https://adrianmartinbenito.github.io/ladrillo-visto/index.html": "97b0ef768fb78161611966e37886ec3e8cc1b4a7",
+    "https://adrianmartinbenito.github.io/ladrillo-visto/main-X3DHH7YO.js": "310138fb8b75208b1514aa9d8c7d390db75ea59b",
     "https://adrianmartinbenito.github.io/ladrillo-visto/manifest.webmanifest": "76cfa01a0d15a278a3fce003f4a875533544cead",
     "https://adrianmartinbenito.github.io/ladrillo-visto/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
-    "https://adrianmartinbenito.github.io/ladrillo-visto/styles-IS3OKZ4A.css": "91e90ce2ae1de911e5655584a6ab8e7eb3610d1c"
+    "https://adrianmartinbenito.github.io/ladrillo-visto/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
