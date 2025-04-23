@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule,AsyncPipe, NgForOf } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { ProjectService } from '../../core/services/project.service';
-import { AsyncPipe, NgForOf } from '@angular/common';
 
 @Component({
   selector: 'app-gallery',
