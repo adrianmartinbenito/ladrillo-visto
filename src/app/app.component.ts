@@ -1,13 +1,22 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { GalleryComponent } from "./features/gallery/gallery.component";
+import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { SpecialtiesComponent } from './components/specialties/specialties.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
-    selector: 'app-root',
-    imports: [RouterOutlet, GalleryComponent],
-    templateUrl: './app.component.html',
-    styleUrl: './app.component.scss'
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss'],
+  imports: [
+    CommonModule,
+    AboutComponent,
+    ContactComponent,
+    ProjectsComponent,
+    SpecialtiesComponent,
+  ],
 })
 export class AppComponent {
-  title = 'ladrillo-visto';
+  title = 'Ladrillo Visto';
 }

@@ -1,21 +1,8 @@
+import { enableProdMode } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
-import { provideRouter, Routes } from '@angular/router';
-import { provideHttpClient } from '@angular/common/http';
-import { GalleryComponent } from './app/features/gallery/gallery.component';
-import { ProjectDetailComponent } from './app/features/project-detail/project-detail.component';
-import { LandingComponent } from './app/features/landing/landing.component';
+import { AppComponent } from './app/app.component';
+import { appConfig } from './app/app.config';
 
-
-
-const routes: Routes = [
-  { path: '', component: GalleryComponent },
-  { path: 'projects/:slug', component: ProjectDetailComponent },
-  { path: '**', redirectTo: '' },
-];
-
-bootstrapApplication(LandingComponent)
-  .catch(err => console.error(err));
-
-bootstrapApplication(GalleryComponent, {
-  providers: [provideRouter(routes), provideHttpClient()],
-}).catch((err) => console.error(err));
+bootstrapApplication(AppComponent, appConfig).catch((err) =>
+  console.error(err)
+);
