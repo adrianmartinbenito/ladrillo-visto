@@ -1,13 +1,16 @@
-import { NgFor } from '@angular/common';
-import { Component } from '@angular/core';
+import { NgFor, NgIf } from '@angular/common';
+import Swiper from 'swiper';
+import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.scss'],
-  imports: [NgFor],
+  imports: [NgFor, NgIf],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class ProjectsComponent {
+  mobile = false;
   projects = [
     {
       title: 'Fachada en ladrillo visto',
@@ -26,4 +29,17 @@ export class ProjectsComponent {
       image: 'assets/images/03.webp',
     },
   ];
+
+  // Inicialización en ngAfterViewInit
+  ngAfterViewInit() {
+    new Swiper('.swiper-container', {
+      // Configuración del slider
+    });
+  }
+  ngOnInit() {
+    if (window.screen.width < 768) {
+      // 768px portrait
+      this.mobile = true;
+    }
+  }
 }
